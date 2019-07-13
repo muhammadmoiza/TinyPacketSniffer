@@ -8,3 +8,4 @@ You will need root access to bind socket for sniffing, write the following comma
 sudo python3 sniffer.py
 ```
 ## Sample result:
+![Sample result](https://github.com/muhammadmoiza/TinyPacketSniffer/blob/master/Result.jpeg)
