@@ -23,7 +23,7 @@ while True:
 	# PACKET SOURCE INFORMATION
 	print("----------------------------------SOURCE INFO----------------------------------")
 	# 6-11 Source MAC Address
-	print("Source Address:", hex((packet[0])[6]) + ":" + hex((packet[0])[7]) + ":" + hex((packet[0])[8]) + ":" + hex((packet[0])[9]) + ":" + hex((packet[0])[10]) + ":" + hex((packet[0])[11]))
+	print("Source MAC Address:", hex((packet[0])[6]) + ":" + hex((packet[0])[7]) + ":" + hex((packet[0])[8]) + ":" + hex((packet[0])[9]) + ":" + hex((packet[0])[10]) + ":" + hex((packet[0])[11]))
 
 	# 26-29 Source IP
 	print("Source IP:", int((packet[0])[26]) , "." , int((packet[0])[27]) , "." , int((packet[0])[28]) , "." , int((packet[0])[29]))
@@ -38,7 +38,7 @@ while True:
 	# PACKET DESTINATION INFORMATION
 	print("------------------------------DESTINATION INFO-----------------------------------")
 	# 0-5 Destination MAC Address
-	print("Destination Address:", hex((packet[0])[0]) + ":" + hex((packet[0])[1]) + ":" + hex((packet[0])[2]) + ":" + hex((packet[0])[3]) + ":" + hex((packet[0])[4]) + ":" + hex((packet[0])[5]))
+	print("Destination MAC Address:", hex((packet[0])[0]) + ":" + hex((packet[0])[1]) + ":" + hex((packet[0])[2]) + ":" + hex((packet[0])[3]) + ":" + hex((packet[0])[4]) + ":" + hex((packet[0])[5]))
 
 	# 30-33 Destination IP
 	print("Destination IP:", int((packet[0])[30]) , "." , int((packet[0])[31]) , "." , int((packet[0])[32]) , "." , int((packet[0])[33]))
